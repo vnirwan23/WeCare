@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_action_blood"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/blood_icon"
+        android:title="Blood"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_action_clothes"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/clothes_icon"
+        android:title="Clothes"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bottom_action_food"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/food_icon"
+        android:title="Food"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bottom_action_books"
+        android:checkable="true"
+        android:enabled="true"
+        android:icon="@drawable/books_icon"
+        android:title="Books"
+        android:visible="true"
+        app:showAsAction="always" />
+
+</menu>
